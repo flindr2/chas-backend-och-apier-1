@@ -1,4 +1,12 @@
+---
+marp: true
+theme: default
+paginate: true
+---
+
 # Dagens workshop - repetition
+
+---
 
 ## Idag
 
@@ -8,12 +16,16 @@
 - Repetition
 - Svårare uppgifter finns längst
 
+---
+
 ## Vem är jag?
 
 - Fredrik Lindroth
 - Jobbat som utvecklare i 7 år
 - Tidigare även utbildat
 - 3d-printing som hobby senaste året
+
+---
 
 ## Kursmål
 
@@ -28,11 +40,15 @@
   - AI-verktyg
     - Jag använder Github Copilot, men andra går också bra
 
+---
+
 ## Del 1 - ExpressJS och NodeJS
 
 - Skapa ett API med JavaScript som använder sig av nodeJS (server) och ExpressJS (REST-API)
   - APIet ska ha en endpoint för GET, POST, PUT och DELETE
   - Testa anropa varje endpoint, använd t.ex. Thunder Client (VSCode extension) eller Postman
+
+---
 
 ## Del 2 - PostgreSQL och Prisma
 
@@ -45,6 +61,8 @@
   - Installer och initiera prisma genom att skriva följande i konsolen
     - npm install prisma --save-dev
     - npx prisma init
+
+---
 
 - Lägg till följande model-objekt i den nyskapade filen "schema.prisma"
 
@@ -68,6 +86,8 @@ model User
   - Uppdatera DELETE-metoden så det går att ta bort en användare
   - Tänk på att varje metod nu måste vara av typen async/await
 
+---
+
 ## Del 3 - Validering
 
 - Validering med middleware och felhantering
@@ -79,6 +99,8 @@ model User
   - Validera GET-anropet för en specifik användare
     - Id måste vara ett nummer och får inte vara en sträng. Är id en sträng ska inte en sökning i databas utföras.
   - Lägg ett try-catch-block runt GET-anropet för en specifik användare.
+
+---
 
 ## Svårare uppgifter
 
